@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin-left: auto;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    cursor: pointer;
+    border-bottom: 1px solid gray;
+}
+
+nav a{
+    text-decoration: none;
+    color: #000000de;
+}
+
+.hamburger{
+    height: 20px;
+    width: auto;
+    display: block;
+    cursor: pointer;
+}
+
+nav p{
+    color: #fff;
+    background-color: rgb(196, 31, 31);
+    padding: 1rem 1.2rem;
+    border-radius: 50%;
+    margin-top: -0.7rem;
+}
+/******************Main BODY*********************/
+
+main{
+    width: 50%;
+    margin: 16.5rem auto;
+    text-align: center;
+    font-size: 2rem;
+    margin-left: auto;
+}
+
+.logo{
+    width: 250px;
+    padding-bottom: 3.5rem;
+    display: inline-block;
+}
+
+input{
+    width: 80%;
+    padding: 1rem;
+    border-radius: 3rem;
+    outline: none;
+    border: 1px solid #dfe1e5;
+}
+
+.btn-container{
+    margin-top: 2.5rem;
+}
+
+.btn-container button{
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 2px;
+    margin-right: 1rem;
+}
+
+
+/**************FOOTER*********************/
+
+footer{
+    color: gray;
+    background-color: rgb(223, 215, 215);
+    font-size: 1.6rem;
+}
+.footer_top{
+    padding: 1rem;
+}
+.footer_bottom{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #928a8a94;
+}
+
+.left a, .right a{
+    margin-right: 1rem;
+}
